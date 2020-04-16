@@ -1,0 +1,24 @@
+{
+  "name": "markdown-metadata-parser",
+  "version": "1.0.1",
+  "description": "Markdown metadata parser is a tiny library that gets a markdown content and returns it's metadata as a javascript object",
+  "main": "lib/index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=10.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "typescript": "^3.8.3"
+  }
+}
