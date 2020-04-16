@@ -10,3 +10,4 @@ order: 100
 # This is a markdown title
 `
 var metadata = parser.parseMarkdownMetadata(md);
+console.log(metadata);

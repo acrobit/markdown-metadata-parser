@@ -2,12 +2,14 @@
   "name": "markdown-metadata-parser-tester",
   "version": "1.0.0",
   "main": "index.js",
-   "publishConfig": {
+  "scripts": {
+    "start": "node index.js"
+  },
+  "publishConfig": {
     "access": "public"
   },
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {},
   "engines": {
     "node": ">=10.9.0"
